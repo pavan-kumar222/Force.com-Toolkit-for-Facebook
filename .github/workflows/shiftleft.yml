@@ -10,5 +10,10 @@ jobs:
     - name: Perform ShiftLeft Scan
       uses: ShiftLeftSecurity/scan-action@master
       with:
-       type: "credscan,java,depscan"
+        output: reports
+    - name: Upload scan reports
+      uses: actions/upload-artifact@v1.0.0
+      with:
+        name: shiftleft-scan-reports
+        path: reports
 

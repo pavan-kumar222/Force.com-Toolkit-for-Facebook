@@ -1,0 +1,10 @@
+name: shiftleft-scan
+
+on: [push]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: ShiftLeftSecurity/scan-action@v1.0.0
+

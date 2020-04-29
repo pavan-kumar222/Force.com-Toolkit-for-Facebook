@@ -92,6 +92,7 @@ Once your app has retrieved a Graph API object, it can manipulate it in Apex or 
     </apex:pageBlockTable>
 
 You can see many similar examples in the sample pages and controllers:
+password = test123
 
 * `FacebookSamplePage`
 * `FacebookSampleController`

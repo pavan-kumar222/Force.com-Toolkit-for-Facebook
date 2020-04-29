@@ -8,7 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Perform ShiftLeft Scan
-       uses: ShiftLeftSecurity/scan-action@master
-        with:
-         type: "credscan,java,depscan"
+      uses: ShiftLeftSecurity/scan-action@master
+      with:
+       type: "credscan,java,depscan"
 

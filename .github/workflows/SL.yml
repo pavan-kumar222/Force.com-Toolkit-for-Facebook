@@ -1,2 +1,5 @@
-- name: shiftleft-scan
-  uses: ShiftLeftSecurity/scan-action@v1.0.0
+--- 
+- 
+  uses: ShiftLeftSecurity/scan-action@master
+  with: 
+    type: "credscan,java,depscan"

@@ -1,2 +1,2 @@
-- name: Perform ShiftLeft Scan
-  uses: ShiftLeftSecurity/scan-action@master
+- name: shiftleft-scan
+  uses: ShiftLeftSecurity/scan-action@v1.0.0
